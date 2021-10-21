@@ -6,7 +6,7 @@ In an autoencoder, we see how different values of the coding layer (2D) can lead
 
 A video of this is shown below: 
 
-<video src="https://github.com/anish-lakkapragada/MNIST_LatentSpaceViz/blob/master/output_2.mp4"> 
+https://user-images.githubusercontent.com/38841491/138221031-581e249e-0444-47a6-a06c-67459fb19daa.mp4
 
 Choosing and changing numbers in an autoencoder also makes us able to see how a computer  can learn to recognize patterns in the data (this sentence
 totally wasn't written by AI). 
