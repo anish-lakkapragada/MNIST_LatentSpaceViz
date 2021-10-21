@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Visualization of MNIST Latent Space </title>
+        <link rel="stylesheet" href="global.css"> 
+    </head>
+
+    <body> 
+        <h1> Latent Space Visualization of MNIST </h1>
+
+        <h3> What do neural networks learn inside of those numbers? </h3>
+
+        <p> This idea is encompassed in the concept of a latent space, or a space of numbers in any amount of dimensions that can represent information. 
+            An example of this is how I can't give you [-1.69, 4.20, and 3.901] and then tell you that it matches with a photo of the digit three, and then ask 
+            you what digit you will get with [1.69, 4.20, 3.901] (first number is now positive). But neural networks can, and that's fascinating. 
+        </p>    
+
+        <p> In autoencoders, you have a middle layer (also called the <em> coding </em> layer), that contains a set amount of numbers. These numbers are then fed into 
+        even more layers at the end to recreate the original image. This means that just based on a few numbers, it can recreate an entire image! Isn't that amazing 
+        that it can just use numbers, and it learns what the numbers mean? </p>
+
+        <figure> 
+            <img id="autoencoder-image" src="autoencoders.png"> 
+            <figcaption>  </figcaption>
+        </figure>
+
+    </body>
+
+</html>
+
+<style> 
+
+    #autoencoder-image {
+        text-align: center; 
+        width: 20rem;
+    }
+</style> 
